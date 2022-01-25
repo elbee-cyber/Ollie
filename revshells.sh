@@ -7,10 +7,6 @@ echo "Twitter: @0dayCTF, @VainXploits & @sootierprivate"
 
 echo "--------------------------------------"
 echo "IMPORTANT NOTE: This program is case sensitive, please enter the exact text you see in the available payloads section in the PAYLOAD field! please add a '%20' if there are spaces between words in the payload. Example (PAYLOAD: Bash&20-i)"
-#echo "R-<PAYLOAD-NAME>==Reverse Payload"
-#echo "B-<PAYLOAD-NAME>==Bind Payload"
-#echo "MSF-<PAYLOAD-NAME>==MSFVenom Payload"
-#echo "--------------------------------------"
 
 #Payload Available
 echo "--------------------------------------"
@@ -64,5 +60,5 @@ read -p "PAYLOAD: " PAYLOAD
 read -p "IP: " IP
 read -p "PORT: " PORT
 
-curl https://www.revshells.com/$PAYLOAD?ip=$IP&port=$PORT&shell=sh&encoding=sh
+curl "https://www.revshells.com/$PAYLOAD?ip=$IP&port=$PORT&shell=sh&encoding=sh"
 
