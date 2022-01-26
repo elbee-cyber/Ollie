@@ -89,7 +89,42 @@ python3_2="38: Python3 #2"
 echo $python3_2
 python3_shortest="39: Python3 shortest"
 echo $python3_shortest
-
+ruby1="40: Ruby #1"
+echo $ruby1
+ruby_no_sh="41: Ruby no sh"
+echo $ruby_no_sh
+socat1="42: Socat #1"
+echo $socat1
+socat_2tty="43: Socat #2 (TTY)"
+echo $socat_2tty
+nodejs="44: node.js"
+echo $nodejs
+nodejs2="45: node.js #2"
+echo $nodejs2
+java1="46: Java #1"
+echo $java1
+java2="47: Java #2"
+echo $java2
+java3="48: Java #3"
+echo $java3
+javascript="49: Javascript"
+echo $javascript
+groovy="50: Groovy"
+echo $groovy
+telnet="51: telnet"
+echo $telnet
+zsh="52: zsh"
+echo $zsh
+lua1="53: Lua #1"
+echo $lua1
+lua2="54: Lua #2"
+echo $lua2
+golang="55: Golang"
+echo $golang
+awk="56: Awk"
+echo $awk
+dart="57: Dart"
+echo $dart
 
 
 
@@ -100,4 +135,3 @@ read -p "IP: " IP
 read -p "PORT: " PORT
 
 curl "https://www.revshells.com/$PAYLOAD?ip=$IP&port=$PORT&shell=sh&encoding=sh"\n
-
