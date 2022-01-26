@@ -10,6 +10,8 @@ echo "IMPORTANT NOTE: This program is case sensitive, please enter the exact tex
 
 #Payload Available
 echo "--------------------------------------"
+echo "Reverse Payloads(All OS)"
+echo "--------------------------------------"
 
 bash="1: Bash -i"
 echo $bash
