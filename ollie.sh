@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "Welcome, to the revshells CLI!"
+echo "Welcome, to Ollie, the revshells CLI!"
 echo "Twitter: @0dayCTF, @VainXploits & @sootierprivate"
 
 #Types of Payloads
