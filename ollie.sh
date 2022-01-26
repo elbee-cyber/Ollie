@@ -8,9 +8,9 @@ echo "Twitter: @0dayCTF, @VainXploits & @sootierprivate"
 echo "--------------------------------------"
 echo "IMPORTANT NOTE: This program is case sensitive, please enter the exact text you see, in the available payloads section within the PAYLOAD field! please add a '%20' if there are spaces between words in the payload. Example (PAYLOAD: Bash&20-i)"
 
-#Payload Available
+#Payloads Available
 echo "--------------------------------------"
-echo "Reverse Payloads(All OS)"
+echo "Reverse shells(All OS)"
 echo "--------------------------------------"
 
 bash="1: Bash -i"
@@ -128,7 +128,14 @@ echo $awk
 dart="57: Dart"
 echo $dart
 
+echo "--------------------------------------"
+echo "Bind shells"
+echo "--------------------------------------"
 
+python3_bind="58: Python3 Bind"
+echo $python3_bind
+php_bind="59: PHP Bind"
+echo $php_bind
 
 #User input for Payload, IP & PORT
 echo "--------------------------------------"
