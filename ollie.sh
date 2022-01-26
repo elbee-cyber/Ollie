@@ -49,7 +49,46 @@ php_emoji="18: PHP Emoji"
 echo $php_emoji
 php_pentestmonkey="19: PHP Pentestmonkey"
 echo $php_pentestmonkey
-
+php_ivan_sincek="20: PHP Ivan Sincek"
+echo $php_ivan_sincek
+php_cmd="21: PHP cmd"
+echo $php_cmd
+php_exec="22: PHP exec"
+echo $php_exec
+php_shell_exec="23: PHP shell_exec"
+echo $php_shell_exec
+php_system="24: PHP system"
+echo $php_system
+php_passthrough="25: PHP passthru"
+echo $php_passthrough
+php_backquote="26: PHP Backquote"
+echo $php_backquote
+php_popen="27: PHP popen"
+echo $php_popen
+php_proc_open="28: PHP proc_open"
+echo $php_proc_open
+windows_conpty="29: Windows ConPty"
+echo $windows_conpty
+powershell1="30: Powershell #1"
+echo $powershell1
+powershell2="31: Powershell #2"
+echo $powershell2
+powershell3="32: Powershell #3"
+echo $powershell3
+powershell4tls="33: Powershell #4 (TLS)"
+echo $powershell4tls
+powershell3base64="34: Powershell #3 (Base64)"
+echo $powershell3base64
+python1="35: Python #1"
+echo $python1
+python2="36: Python #2"
+echo $python2
+python3_1="37: Python3 #1"
+echo $python3_1
+python3_2="38: Python3 #2"
+echo $python3_2
+python3_shortest="39: Python3 shortest"
+echo $python3_shortest
 
 
 
@@ -60,5 +99,5 @@ read -p "PAYLOAD: " PAYLOAD
 read -p "IP: " IP
 read -p "PORT: " PORT
 
-curl "https://www.revshells.com/$PAYLOAD?ip=$IP&port=$PORT&shell=sh&encoding=sh"
+curl "https://www.revshells.com/$PAYLOAD?ip=$IP&port=$PORT&shell=sh&encoding=sh"\n
 
