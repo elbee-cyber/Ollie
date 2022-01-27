@@ -137,6 +137,48 @@ echo $python3_bind
 php_bind="59: PHP Bind"
 echo $php_bind
 
+echo "--------------------------------------"
+echo "MSFVenom Shells"
+echo "--------------------------------------"
+
+windows_meterpreter_staged="60: Windows Meterpreter Staged Reverse TCP (x64)"
+echo $windows_meterpreter_staged
+windows_meterpreter_stageless="61: Windows Meterpreter Stageless Reverse TCP (x64)"
+echo $windows_meterpreter_stageless
+windows_staged_reverse="62: Windows Staged Reverse TCP (x64)"
+echo $windows_staged_reverse
+windows_stageless_reverse="63: Windows Stageless Reverse TCP (x64)"
+echo $windows_stageless_reverse
+linux_meterpreter_staged_reverse="64: Linux Meterpreter Staged Reverse TCP (x64)"
+echo $linux_meterpreter_staged_reverse
+linux_stageless_reverse="65: Linux Stageless Reverse TCP (x64)"
+echo $linux_stageless_reverse
+windows_bind_tcp_shellcode_bof="66: Windows Bind TCP ShellCode - BOF"
+echo $windows_bind_tcp_shellcode_bof
+macos_meterpreter_reverse_staged="67: macOS Meterpreter Staged Reverse TCP (x64)"
+echo $macos_meterpreter_reverse_staged
+macos_meterpreter_reverse_stageless="68: macOS Meterpreter Stageless Reverse TCP (x64)"
+echo $macos_meterpreter_reverse_stageless
+macos_stageless_reverse="69: macOS Stageless Reverse TCP (x64)"
+echo $macos_stageless_reverse
+php_meterpreter_stageless_reverse="70: PHP Reverse Stageless Reverse TCP"
+echo $php_meterpreter_stageless_reverse
+php_reverse_echo="71: PHP Reverse PHP"
+echo $php_reverse_echo
+jsp_stageless_reverse="72: JSP Stageless Reverse TCP"
+echo $jsp_stageless_reverse
+war_stageless_reverse="73: WAR Stageless Reverse TCP"
+echo $war_stageless_reverse
+android_meterpreter_reverse="74: Android Meterpreter Reverse TCP"
+echo $android_meterpreter_reverse
+android_meterpreter_embed_reverse="75: Android Meterpreter Embed Reverse TCP"
+echo $android_meterpreter_embed_reverse
+python_stageless_reverse="76: Python Stageless Reverse TCP"
+echo $python_stageless_reverse
+bash_stageless_reverse="77: Bash Stageless Reverse TCP"
+echo $bash_stageless_reverse
+#echo "--------------------------------------"
+
 #User input for Payload, IP & PORT
 echo "--------------------------------------"
 read -p "PAYLOAD: " PAYLOAD
