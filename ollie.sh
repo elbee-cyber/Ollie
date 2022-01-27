@@ -185,4 +185,4 @@ read -p "PAYLOAD: " PAYLOAD
 read -p "IP: " IP
 read -p "PORT: " PORT
 
-curl "https://www.revshells.com/$PAYLOAD?ip=$IP&port=$PORT&shell=sh&encoding=sh"\n
+curl "https://www.revshells.com/`echo $PAYLOAD | sed -e 's/ /%20/g'`?ip=$IP&port=$PORT&shell=sh&encoding=sh"\n
